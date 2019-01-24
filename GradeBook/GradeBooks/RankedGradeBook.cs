@@ -28,8 +28,7 @@ namespace GradeBook.GradeBooks
             else if (grades[step * 4 - 1] <= averageGrade)
                 return 'D';
             else
-                return 'F';
-// return base.GetLetterGrade(averageGrade);
+                return base.GetLetterGrade(averageGrade);
 
         }
     }
